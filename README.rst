@@ -46,6 +46,8 @@ The compilers used by Steinwurf are listed at the bottom of the
 Linux
 .....
 
+If you use Anaconda, you'd better deactivate the environment by ``conda deactivate`` first.
+
 These steps may not work with your specific Linux distribution, but they may
 guide you in the right direction.
 
@@ -54,7 +56,7 @@ First, acquire the required packages from your package management system::
   sudo apt-get update
   sudo apt-get install python build-essential libpython-dev python-dev
 
-If you are using Python 3, you'll need to install ``libpython3-dev`` instead.
+If you are using Python 3, you'll need to install ``libpython3-dev python3-dev`` instead.
 
 Mac OSX
 .......
